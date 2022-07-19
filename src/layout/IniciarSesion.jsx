@@ -1,8 +1,11 @@
-import React from 'react'
+import {Outlet} from 'react-router-dom'
 
 const IniciarSesion = () => {
   return (
-    <div>Desde Iniciar Sesion</div>
+    <div>
+        <h1>Desde Iniciar Sesion</h1>
+        <Outlet></Outlet>
+    </div>
   )
 }
 
